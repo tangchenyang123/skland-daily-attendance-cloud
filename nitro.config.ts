@@ -6,7 +6,7 @@ export default defineConfig({
     tasks: true,
   },
   scheduledTasks: {
-    '30 */2 * * *': ['attendance'],
+    '30 */12 * * *': ['attendance'],
   },
   runtimeConfig: {
     tokens: '',
